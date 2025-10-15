@@ -1,0 +1,13 @@
+:root {
+    background-color: #ffebfc;
+}
+
+.container{
+    width: 23rem;
+    height: 25rem;    
+    background-color: #ffffff;
+    border-radius: 5%;
+    margin: auto;
+    margin-top: 10%;
+    border: 1px solid black;
+}
