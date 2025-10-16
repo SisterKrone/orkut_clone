@@ -1,13 +1,118 @@
 :root {
     background-color: #ffebfc;
+    font-family: 'Segoe UI', Helvetica, Arial;
 }
 
-.container{
-    width: 23rem;
-    height: 25rem;    
+.container {
+    max-width: 23rem;    
     background-color: #ffffff;
     border-radius: 5%;
     margin: auto;
-    margin-top: 10%;
-    border: 1px solid black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;    
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
+}
+
+.field__title {
+    font-size: 1.125rem;
+    color: rgb(68, 68, 68);
+    margin-bottom: 1.3rem;
+}
+
+.pink-font {
+    color: #E8258E;
+}
+
+.field__email,
+.field__password {
+    border: 1px solid silver;
+    width: 88%;
+    line-height: 2.6rem;
+    border-radius: 2rem;
+    padding: 0 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.fiels__remember {
+    margin-bottom: 1rem;
+    align-items: center;
+    font-size: .7rem;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    gap: .3rem;
+    width: 88%;
+}
+
+.field__login {
+    width: 88%;
+    background-color: #E8258E;
+    color: #ffffff;
+    border: none;
+    border-radius: 2rem;
+    height: 2rem;
+    margin-bottom: .5rem;
+    cursor: pointer;
+}
+
+.field__login:hover {
+    background-color: #e34097;
+}
+
+
+.field__forgot,
+.field__create a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.field__forgot {
+    align-self: flex-end;
+    margin-right: 1.8rem;
+    margin-bottom: 2rem;
+    font-size: .8rem;
+    color: rgb(87, 87, 87);
+}
+
+.field__create {
+    font-weight: 600;
+    color: rgb(87, 87, 87);
+    margin-bottom: 3rem;
+}
+
+.field__forgot:hover,
+.field__create a:hover {
+    text-decoration: underline;
+}
+
+input {
+    outline: none;
+}
+
+#field__remember {
+    accent-color: #E8258E;
+    cursor: pointer;
+}
+
+.logo{
+    max-width: 23rem;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    max-width: 23rem;
+    
+    width: 80%;
 }
